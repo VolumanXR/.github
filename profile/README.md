@@ -1,14 +1,18 @@
 **EN** | [DE](README.de.md)
 
 <p align="center">
-  <img src="docs/assets/Logo.png" alt="VolumanXR Logo" width="300"/>
+  <img src="../docs/assets/Logo.png" alt="VolumanXR Logo" width="300"/>
 </p>
 
 # VolumanXR
 
 **An End-to-End Pipeline for Volumetric Capture and 4D Gaussian Rendering**
 
-Welcome to the central repository for **VolumanXR**, a collaborative research project developed at TH Köln as part of the Medientechnology Master's program. This project provides a modular pipeline for capturing, training, and rendering high-quality, dynamic human representations using state-of-the-art 4D Gaussian Splatting techniques — with XR integration focused on Meta Quest devices.
+Welcome to the **VolumanXR GitHub organization**, which hosts the repositories of a collaborative research project developed at TH Köln as part of the Medientechnology Master’s program. VolumanXR provides a modular ecosystem for capturing, training, and rendering high-quality, dynamic human representations using state-of-the-art 4D Gaussian Splatting techniques, with XR integration focused on Meta Quest devices.
+
+Each subteam maintains its own repository within this organization, together forming a complete end-to-end pipeline.
+> **Maintenance Notice**\
+>This GitHub organization primarily serves as a documentation and reference space for the VolumanXR research project. Further development occurs on an occasional basis and is not continuous. Repositories may receive updates from time to time, but regular maintenance and long-term support should not be assumed.
 
 ## 🧠 Project Scope
 
@@ -19,32 +23,33 @@ VolumanXR delivers a scalable and reproducible end-to-end system capable of:
 - Rendering immersive real-time visualizations within an XR environment
 - Experimenting with advanced avatar deformation via HAC-Gaussians
 
-## 🗂 Repository Structure
+## 🗂 Organization Structure
+The VolumanXR organization is composed of multiple repositories, each owned by a dedicated subteam. For now only the capture system is public:
 ```text
-VolumanXR/
-├── docs/                       # Project documentation and presentation assets
+VolumanXR (GitHub Organization)
+├── docs/                       # Shared project documentation and assets
 │   ├── assets/                 # Logos and shared resources for docs and README
-│   ├── documentation/          # In-depth written documentation (PDF, LaTeX, etc.)
-│   └── PowerPoint/             # Presentation slides and visuals
+│   ├── documentation           # In-depth written documentation (German only)
+│   └── Poster                  # 
 ├── volumetric-capture-system/  # Multicamera rig hardware & software (Raspberry Pi-based)
-├── Training/                   # Preprocessing and Spacetime Gaussian training pipeline
-├── Viewer/                     # WebXR/WebGPU-based viewer for real-time XR 
-├── LICENSE
-└── README.md                   # You are here :)
+├── training/                   # Preprocessing and spacetime Gaussian training pipeline
+├── viewer/                     # WebXR/WebGPU-based viewer for real-time XR
+├── hac-gaussian/               # Experimental animatable Gaussian avatar research
+└── .github/README.md           # Organization README                               <-- You are here :)
 ```
 
-Each major directory corresponds to a subteam's work. For technical deep dives, setup instructions, and usage notes, please refer to the individual `README.md` files in those subfolders.
+Each repository contains its own `README.md` with technical details, setup instructions, and usage documentation specific to that subproject.
 
 ## 🔍 Subproject Overview
 
-### [**Volumetric Capture System**](volumetric-capture-system/) 
+### [**Volumetric Capture System**](https://github.com/VolumanXR/volumetric-capture-system) (public repository)
 Hardware construction and software orchestration of the capture rig (68 Raspberry Pis + Cameras), including:
 
 - Synchronization and remote control over WiFi
 - Capture controller with GUI
 - Automated calibration and session management
 
-### [**Training Pipeline**](training/) 
+### **Training Pipeline** (internal only)
 A data processing and training pipeline for 4D Spacetime Gaussians, including:
 
 - COLMAP-based camera tracking
@@ -52,14 +57,14 @@ A data processing and training pipeline for 4D Spacetime Gaussians, including:
 - Scene optimization and training
 - Synthetic dataset generation for testing
 
-### [**Viewer**](web-viewer/) 
+### **Viewer** (internal only)
 A custom WebXR/WebGPU viewer for immersive playback of Gaussian-rendered volumetric content in XR:
 
 - Compatible with Meta Quest devices
 - Interactive placement, scaling, and playback control
 - Sequence stitching and transition smoothing
 
-### **HAC-Gaussian**
+### **HAC-Gaussian** (internal only)
 Experimental work on Humanoid Animated Characters using 3D Gaussian splats with techniques such as:
 
 - Animatable Gaussians
@@ -68,21 +73,28 @@ Experimental work on Humanoid Animated Characters using 3D Gaussian splats with 
 
 ## 📄 Documentation
 
-A full project report is available under `docs/documentation/`  
-Slides and visual assets used for presentations can be found in `docs/PowerPoint/`.  
+A full project report is available under `docs/`  (German only) 
 Teamwide branding and visual assets (e.g. logo) are stored in `docs/assets/`.
 
 ## 👥 Contributors
 
 This project was developed by the following team members:
 
+#### Volumetric Capture System
+
 - [Kai Altwicker](https://github.com/tallAldi) (Project Co-Lead)
 - [Dennis Luca Amuser](https://github.com/dooonnis)
+
+#### Training Pipeline
 - [Matthias Bullert](https://github.com/DuesenDan)
-- [David Martin Karg](https://github.com/EmptyBarrel)
 - [David Mertens](https://github.com/DavidMertTH)
+
+#### Viewer
+- [David Martin Karg](https://github.com/EmptyBarrel)
 - [Alisa Rüge](https://github.com/validP0)
 - [Steffen Stein](https://github.com/forEachWhileTrue) (Project Lead)
+
+#### HAC-Gaussian
 - [Marvin Winkler](https://github.com/Knobelboy)
 
 Special thanks to the TH Köln Makerspace, Prof. Dr.-Ing. Arnulph Fuhrmann, and the Kickstart@TH Köln initiative for their generous support.
