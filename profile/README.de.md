@@ -103,7 +103,7 @@ Besonderer Dank gilt dem Makerspace der TH Köln, Prof. Dr.-Ing. Arnulph Fuhrman
 
 ## 📜 Lizenz
 
-Dieses Projekt steht unter der MIT-Lizenz. Details siehe `LICENSE`.
+Für detaillierte Informationen zur Lizenzierung siehe die entsprechende `LICENSE`-Datei im jeweiligen Repository.
 
 ---
 

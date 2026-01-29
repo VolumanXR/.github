@@ -103,11 +103,11 @@ Special thanks to the TH Köln Makerspace, Prof. Dr.-Ing. Arnulph Fuhrmann, and 
 
 ## 📜 License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+For detailed information about licensing see the corresponding `LICENSE` file in each repository.
 
 ---
 
-> For detailed setup or usage instructions, check the README inside each subdirectory.
+> For detailed setup or usage instructions, check the README inside each repository.
 
 
         
