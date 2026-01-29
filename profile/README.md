@@ -29,8 +29,7 @@ The VolumanXR organization is composed of multiple repositories, each owned by a
 VolumanXR (GitHub Organization)
 ├── docs/                       # Shared project documentation and assets
 │   ├── assets/                 # Logos and shared resources for docs and README
-│   ├── documentation           # In-depth written documentation (German only)
-│   └── Poster                  # 
+│   └── publications/           # Documentation and publications
 ├── volumetric-capture-system/  # Multicamera rig hardware & software (Raspberry Pi-based)
 ├── training/                   # Preprocessing and spacetime Gaussian training pipeline
 ├── viewer/                     # WebXR/WebGPU-based viewer for real-time XR
@@ -73,7 +72,10 @@ Experimental work on Humanoid Animated Characters using 3D Gaussian splats with 
 
 ## 📄 Documentation
 
-A full project report is available under `docs/`  (German only) 
+A full project report is available under [`docs/publications/Voluman_Documentation_DE.pdf`](../docs/publications/Voluman_Documentation_DE.pdf)  (German only)
+
+Parts of this project have been published as an [IEEE VR26 Poster](../docs/publications/IEEE_VR26_Poster.pdf), covering the Volumetric Capture System, see the corresponding repository for details.
+
 Teamwide branding and visual assets (e.g. logo) are stored in `docs/assets/`.
 
 ## 👥 Contributors

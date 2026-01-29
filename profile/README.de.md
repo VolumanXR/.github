@@ -30,8 +30,7 @@ Die VolumanXR-Organisation besteht aus mehreren Repositories, die jeweils von de
 VolumanXR (GitHub-Organisation)
 ├── docs/                       # Gemeinsame Projektdokumentation und Assets
 │   ├── assets/                 # Logos und geteilte Ressourcen für Doku und README
-│   ├── documentation           # Ausführliche Dokumentation (PDF, LaTeX, etc.)
-│   └── Poster                  # 
+│   └── publications/           # Dokumentation und Veröffentlichungen
 ├── volumetric-capture-system/  # Multikamera-Rig Hardware & Software (Raspberry Pi-basiert)
 ├── training/                   # Preprocessing und Training von Spacetime Gaussians
 ├── viewer/                     # WebXR/WebGPU-basierter Viewer für XR-Echtzeitdarstellung
@@ -74,8 +73,10 @@ Experimentelle Arbeiten mit animierbaren Avataren auf Basis von 3D-Gaussian-Spla
 
 ## 📄 Dokumentation
 
-Der vollständige Projektbericht befindet sich unter `docs/documentation/`.  
-Präsentationsfolien und visuelle Assets sind unter `docs/PowerPoint/` zu finden.  
+Der vollständige Projektbericht befindet sich unter [`docs/publications/Voluman_Documentation_DE.pdf`](../docs/publications/Voluman_Documentation_DE.pdf).  
+
+Teile dieses Projekts wurden als [IEEE VR26-Poster](../docs/publications/IEEE_VR26_Poster.pdf) veröffentlicht, dass das Volumetric Capture System umfasst. Weitere Informationen finden Sie im entsprechenden Repository.
+
 Projektweite Branding- und Grafikressourcen befinden sich unter `docs/assets/`.
 
 ## 👥 Projektteam
@@ -83,20 +84,20 @@ Projektweite Branding- und Grafikressourcen befinden sich unter `docs/assets/`.
 Dieses Projekt wurde von folgenden Teammitgliedern umgesetzt:
 
 #### Volumetric Capture System
-- Kai Altwicker (Stellv. Projektleitung)
-- Dennis Luca Amuser
+- [Kai Altwicker](https://github.com/tallAldi) (Stellv. Projektleitung)
+- [Dennis Luca Amuser](https://github.com/dooonnis)
 
 #### Training Pipeline
-- Matthias Bullert
-- David Mertens
+- [Matthias Bullert](https://github.com/DuesenDan)
+- [David Mertens](https://github.com/DavidMertTH)
 
 #### Viewer
-- David Martin Karg
-- Alisa Rüge
-- Steffen Stein (Projektleitung)
+- [David Martin Karg](https://github.com/EmptyBarrel)
+- [Alisa Rüge](https://github.com/validP0)
+- [Steffen Stein](https://github.com/forEachWhileTrue) (Project Lead)
 
 #### HAC-Gaussian
-- Marvin Winkler
+- [Marvin Winkler](https://github.com/Knobelboy)
 
 Besonderer Dank gilt dem Makerspace der TH Köln, Prof. Dr.-Ing. Arnulph Fuhrmann und der Förderung durch Kickstart@TH Köln.
 
