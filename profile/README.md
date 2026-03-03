@@ -74,7 +74,7 @@ Experimental work on Humanoid Animated Characters using 3D Gaussian splats with 
 
 A full project report is available under [`docs/publications/Voluman_Documentation_DE.pdf`](../docs/publications/Voluman_Documentation_DE.pdf)  (German only)
 
-Parts of this project have been published as an [IEEE VR26 Poster](../docs/publications/IEEE_VR26_Poster.pdf), covering the Volumetric Capture System, see the corresponding repository for details.
+Parts of this project have been published as an [IEEE VR26 Poster](https://doi.org/10.13140/RG.2.2.16244.62083), covering the Volumetric Capture System, see the corresponding repository for details.
 
 Teamwide branding and visual assets (e.g. logo) are stored in `docs/assets/`.
 

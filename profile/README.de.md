@@ -75,7 +75,7 @@ Experimentelle Arbeiten mit animierbaren Avataren auf Basis von 3D-Gaussian-Spla
 
 Der vollständige Projektbericht befindet sich unter [`docs/publications/Voluman_Documentation_DE.pdf`](../docs/publications/Voluman_Documentation_DE.pdf).  
 
-Teile dieses Projekts wurden als [IEEE VR26-Poster](../docs/publications/IEEE_VR26_Poster.pdf) veröffentlicht, dass das Volumetric Capture System umfasst. Weitere Informationen finden Sie im entsprechenden Repository.
+Teile dieses Projekts wurden als [IEEE VR26 Poster](https://doi.org/10.13140/RG.2.2.16244.62083) veröffentlicht, dass das Volumetric Capture System umfasst. Weitere Informationen finden Sie im entsprechenden Repository.
 
 Projektweite Branding- und Grafikressourcen befinden sich unter `docs/assets/`.
 
