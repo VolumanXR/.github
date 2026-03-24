@@ -85,7 +85,7 @@ This project was developed by the following team members:
 #### Volumetric Capture System
 
 - [Kai Altwicker](https://github.com/tallAldi) (Project Co-Lead)
-- [Dennis Luca Amuser](https://github.com/dooonnis)
+- [Dennis Amuser](https://github.com/dooonnis)
 
 #### Training Pipeline
 - [Matthias Bullert](https://github.com/DuesenDan)

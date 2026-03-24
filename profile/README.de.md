@@ -85,7 +85,7 @@ Dieses Projekt wurde von folgenden Teammitgliedern umgesetzt:
 
 #### Volumetric Capture System
 - [Kai Altwicker](https://github.com/tallAldi) (Stellv. Projektleitung)
-- [Dennis Luca Amuser](https://github.com/dooonnis)
+- [Dennis Amuser](https://github.com/dooonnis)
 
 #### Training Pipeline
 - [Matthias Bullert](https://github.com/DuesenDan)
